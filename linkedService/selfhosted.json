@@ -1,0 +1,16 @@
+{
+	"name": "selfhosted",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=tpk.database.windows.net;initial catalog=development;user id=kirthi",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmZTIyNDg4MS0zNWI1LTQ3ZGYtODM2Ny0yMTVkYTE3MzVjNzEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IRsqlserver",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

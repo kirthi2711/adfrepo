@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "kirthidatafactory"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_connectionString": {
+			"value": ""
+		},
+		"Ls_development_connectionString": {
+			"value": ""
+		},
+		"Ls_production_connectionString": {
+			"value": ""
+		},
+		"SqlServer1linkedservices_connectionString": {
+			"value": ""
+		},
+		"kirthiserver1_connectionString": {
+			"value": ""
+		},
+		"selfhosted_connectionString": {
+			"value": ""
+		}
+	}
+}

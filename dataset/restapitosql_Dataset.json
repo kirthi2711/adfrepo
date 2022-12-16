@@ -1,0 +1,19 @@
+{
+	"name": "restapitosql_Dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "pokemon_json",
+				"container": "blobstgdemo"
+			}
+		},
+		"schema": {}
+	}
+}

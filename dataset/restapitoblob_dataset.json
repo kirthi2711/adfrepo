@@ -1,0 +1,12 @@
+{
+	"name": "restapitoblob_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "restapitoblob_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}

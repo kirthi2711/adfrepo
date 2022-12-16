@@ -28,6 +28,9 @@
 		},
 		"selfhosted_connectionString": {
 			"value": ""
+		},
+		"restapitoblob_LS_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
 		}
 	}
 }
